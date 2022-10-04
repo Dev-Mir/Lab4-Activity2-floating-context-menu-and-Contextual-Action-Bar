@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/backId"
+        android:icon="?attr/homeAsUpIndicator"
+        android:title="back"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/barId"
+        android:icon="@android:drawable/status_bar_item_background"
+        android:title="bar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/blankId"
+        android:icon="@android:drawable/divider_horizontal_bright"
+        android:title="blank"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/searchId"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/silentId"
+        android:icon="@android:drawable/ic_lock_silent_mode"
+        android:title="Silent"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/threedotsId"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="Threedots"
+        app:showAsAction="always" />
+
+
+</menu>
+
